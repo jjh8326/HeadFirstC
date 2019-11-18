@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, const char * argv[]) {
+int main2(int argc, const char * argv[]) {
     char card_name[3];
     puts("Enter the card_name: ");
     scanf("%2s", card_name);
