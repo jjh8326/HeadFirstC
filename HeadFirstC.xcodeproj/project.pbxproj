@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8FEFAAF237D0BED0096CD6F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D8FEFAAE237D0BED0096CD6F /* main.c */; };
+		D847B2B32384FDC7004BFD8D /* compass.c in Sources */ = {isa = PBXBuildFile; fileRef = D847B2B22384FDC7004BFD8D /* compass.c */; };
+		D8FEFAAF237D0BED0096CD6F /* cards.c in Sources */ = {isa = PBXBuildFile; fileRef = D8FEFAAE237D0BED0096CD6F /* cards.c */; };
+		D8FEFABB23825BCC0096CD6F /* larger.c in Sources */ = {isa = PBXBuildFile; fileRef = D8FEFABA23825BCC0096CD6F /* larger.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D847B2B22384FDC7004BFD8D /* compass.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compass.c; sourceTree = "<group>"; };
 		D8FEFAAB237D0BED0096CD6F /* HeadFirstC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeadFirstC; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8FEFAAE237D0BED0096CD6F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D8FEFAAE237D0BED0096CD6F /* cards.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cards.c; sourceTree = "<group>"; };
+		D8FEFABA23825BCC0096CD6F /* larger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = larger.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D847B2B12384FD9E004BFD8D /* page89 */ = {
+			isa = PBXGroup;
+			children = (
+				D847B2B22384FDC7004BFD8D /* compass.c */,
+			);
+			path = page89;
+			sourceTree = "<group>";
+		};
 		D8FEFAA2237D0BED0096CD6F = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +69,27 @@
 		D8FEFAAD237D0BED0096CD6F /* HeadFirstC */ = {
 			isa = PBXGroup;
 			children = (
-				D8FEFAAE237D0BED0096CD6F /* main.c */,
+				D847B2B12384FD9E004BFD8D /* page89 */,
+				D8FEFAB623825B190096CD6F /* page72 */,
+				D8FEFAB5237D0DD10096CD6F /* page48 */,
 			);
 			path = HeadFirstC;
+			sourceTree = "<group>";
+		};
+		D8FEFAB5237D0DD10096CD6F /* page48 */ = {
+			isa = PBXGroup;
+			children = (
+				D8FEFAAE237D0BED0096CD6F /* cards.c */,
+			);
+			path = page48;
+			sourceTree = "<group>";
+		};
+		D8FEFAB623825B190096CD6F /* page72 */ = {
+			isa = PBXGroup;
+			children = (
+				D8FEFABA23825BCC0096CD6F /* larger.c */,
+			);
+			path = page72;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8FEFAAF237D0BED0096CD6F /* main.c in Sources */,
+				D847B2B32384FDC7004BFD8D /* compass.c in Sources */,
+				D8FEFABB23825BCC0096CD6F /* larger.c in Sources */,
+				D8FEFAAF237D0BED0096CD6F /* cards.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
