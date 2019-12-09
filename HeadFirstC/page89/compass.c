@@ -13,7 +13,7 @@ void go_south_east(int *lat, int *lon) {
     *lon = *lon + 1;
 }
 
-int main() {
+int main3() {
     int latitude = 32;
     int longitude = -64;
     
