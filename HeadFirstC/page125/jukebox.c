@@ -27,7 +27,7 @@ void find_track(char search_for[]) {
     }
 }
 
-int main() {
+int main125() {
     char search_for[80];
     //printf("Search for: ");
     //fgets(search_for, 80, stdin);

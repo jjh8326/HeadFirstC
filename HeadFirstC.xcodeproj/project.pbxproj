@@ -11,6 +11,7 @@
 		D847B2B6238CEB96004BFD8D /* name_test.c in Sources */ = {isa = PBXBuildFile; fileRef = D847B2B5238CEB96004BFD8D /* name_test.c */; };
 		D84886C3238EE088005BFB74 /* monte.c in Sources */ = {isa = PBXBuildFile; fileRef = D84886C2238EE088005BFB74 /* monte.c */; };
 		D84886C6238EECCC005BFB74 /* jukebox.c in Sources */ = {isa = PBXBuildFile; fileRef = D84886C5238EECCC005BFB74 /* jukebox.c */; };
+		D8E76E18239F62440011EA84 /* geo2json.c in Sources */ = {isa = PBXBuildFile; fileRef = D8E76E17239F62440011EA84 /* geo2json.c */; };
 		D8FEFAAF237D0BED0096CD6F /* cards.c in Sources */ = {isa = PBXBuildFile; fileRef = D8FEFAAE237D0BED0096CD6F /* cards.c */; };
 		D8FEFABB23825BCC0096CD6F /* larger.c in Sources */ = {isa = PBXBuildFile; fileRef = D8FEFABA23825BCC0096CD6F /* larger.c */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		D847B2B5238CEB96004BFD8D /* name_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = name_test.c; sourceTree = "<group>"; };
 		D84886C2238EE088005BFB74 /* monte.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = monte.c; sourceTree = "<group>"; };
 		D84886C5238EECCC005BFB74 /* jukebox.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jukebox.c; sourceTree = "<group>"; };
+		D8E76E17239F62440011EA84 /* geo2json.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo2json.c; sourceTree = "<group>"; };
 		D8FEFAAB237D0BED0096CD6F /* HeadFirstC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeadFirstC; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FEFAAE237D0BED0096CD6F /* cards.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cards.c; sourceTree = "<group>"; };
 		D8FEFABA23825BCC0096CD6F /* larger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = larger.c; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 			path = page125;
 			sourceTree = "<group>";
 		};
+		D8E76E19239F62500011EA84 /* page145 */ = {
+			isa = PBXGroup;
+			children = (
+				D8E76E17239F62440011EA84 /* geo2json.c */,
+			);
+			path = page145;
+			sourceTree = "<group>";
+		};
 		D8FEFAA2237D0BED0096CD6F = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		D8FEFAAD237D0BED0096CD6F /* HeadFirstC */ = {
 			isa = PBXGroup;
 			children = (
+				D8E76E19239F62500011EA84 /* page145 */,
 				D84886C4238EECAC005BFB74 /* page125 */,
 				D84886C1238EE05B005BFB74 /* page116 */,
 				D847B2B4238CEB7A004BFD8D /* page105 */,
@@ -187,6 +198,7 @@
 				D847B2B32384FDC7004BFD8D /* compass.c in Sources */,
 				D8FEFABB23825BCC0096CD6F /* larger.c in Sources */,
 				D8FEFAAF237D0BED0096CD6F /* cards.c in Sources */,
+				D8E76E18239F62440011EA84 /* geo2json.c in Sources */,
 				D84886C3238EE088005BFB74 /* monte.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
