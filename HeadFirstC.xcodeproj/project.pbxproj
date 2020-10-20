@@ -11,6 +11,7 @@
 		D847B2B6238CEB96004BFD8D /* name_test.c in Sources */ = {isa = PBXBuildFile; fileRef = D847B2B5238CEB96004BFD8D /* name_test.c */; };
 		D84886C3238EE088005BFB74 /* monte.c in Sources */ = {isa = PBXBuildFile; fileRef = D84886C2238EE088005BFB74 /* monte.c */; };
 		D84886C6238EECCC005BFB74 /* jukebox.c in Sources */ = {isa = PBXBuildFile; fileRef = D84886C5238EECCC005BFB74 /* jukebox.c */; };
+		D87A7535253EA7FE00EF3F20 /* bermuda.c in Sources */ = {isa = PBXBuildFile; fileRef = D87A7534253EA7FE00EF3F20 /* bermuda.c */; };
 		D8E76E18239F62440011EA84 /* geo2json.c in Sources */ = {isa = PBXBuildFile; fileRef = D8E76E17239F62440011EA84 /* geo2json.c */; };
 		D8FEFAAF237D0BED0096CD6F /* cards.c in Sources */ = {isa = PBXBuildFile; fileRef = D8FEFAAE237D0BED0096CD6F /* cards.c */; };
 		D8FEFABB23825BCC0096CD6F /* larger.c in Sources */ = {isa = PBXBuildFile; fileRef = D8FEFABA23825BCC0096CD6F /* larger.c */; };
@@ -33,6 +34,7 @@
 		D847B2B5238CEB96004BFD8D /* name_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = name_test.c; sourceTree = "<group>"; };
 		D84886C2238EE088005BFB74 /* monte.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = monte.c; sourceTree = "<group>"; };
 		D84886C5238EECCC005BFB74 /* jukebox.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jukebox.c; sourceTree = "<group>"; };
+		D87A7534253EA7FE00EF3F20 /* bermuda.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bermuda.c; sourceTree = "<group>"; };
 		D8E76E17239F62440011EA84 /* geo2json.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = geo2json.c; sourceTree = "<group>"; };
 		D8FEFAAB237D0BED0096CD6F /* HeadFirstC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeadFirstC; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FEFAAE237D0BED0096CD6F /* cards.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cards.c; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				D8E76E17239F62440011EA84 /* geo2json.c */,
+				D87A7534253EA7FE00EF3F20 /* bermuda.c */,
 			);
 			path = page145;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				D84886C6238EECCC005BFB74 /* jukebox.c in Sources */,
 				D847B2B6238CEB96004BFD8D /* name_test.c in Sources */,
+				D87A7535253EA7FE00EF3F20 /* bermuda.c in Sources */,
 				D847B2B32384FDC7004BFD8D /* compass.c in Sources */,
 				D8FEFABB23825BCC0096CD6F /* larger.c in Sources */,
 				D8FEFAAF237D0BED0096CD6F /* cards.c in Sources */,
